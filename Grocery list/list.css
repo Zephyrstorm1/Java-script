@@ -1,0 +1,77 @@
+/*for applying styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #023d42;
+}
+
+/* for the style of main container */
+.container {
+    text-align: center;
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #0c7c84;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*  heading */
+h1 {
+    color: #033946;
+    font-size: 24px;
+}
+
+/*  input container */
+.input-container {
+    display: flex;
+    margin: 20px 0;
+}
+
+/* input field */
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+/*  "Add" button */
+button#addItem {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+/* grocery list */
+ul#groceryList {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*  list of the items */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #ffffff;
+}
+
+/*  "Delete" button for grocery list items */
+button.deleteItem {
+    background-color: #ff3b3b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 5px;
+}

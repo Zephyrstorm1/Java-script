@@ -1,0 +1,46 @@
+/*for Applying styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #033b3e;
+}
+
+/*for Style of the main container */
+.container {
+    text-align: center;
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #005f76;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*for Style of the heading */
+h1 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+/*for Style of the timer display */
+#timer {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/*for Style of the buttons */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #0a565f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Changing button color on hover */
+button:hover {
+    background-color: #0180aa;
+}
